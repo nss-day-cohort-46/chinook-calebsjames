@@ -4,3 +4,4 @@ From Customer
     ON Customer.CustomerId = Invoice.CustomerId
     INNER JOIN Employee
     ON Customer.SupportRepId = Employee.EmployeeId
+LIMIT 5
